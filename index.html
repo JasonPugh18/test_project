@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gasoline SDS Preview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .header .by {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .header .danger {
+            background-color: #d9534f;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .sds-preview {
+            color: #007bff;
+            font-size: 0.9em;
+        }
+        h2 {
+            font-size: 1.3em;
+            margin-top: 20px;
+        }
+        p, li {
+            font-size: 1em;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .symbols {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .symbols img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sds-preview">SDS preview</div>
+    <div class="header">
+        <div>
+            <h1>GASOLINE</h1>
+            <div class="by">by EXXONMOBIL</div>
+        </div>
+        <div class="danger">DANGER</div>
+    </div>
+
+    <h2>Hazard statements</h2>
+    <p>Causes skin irritation</p>
+    <p>Extremely flammable liquid and vapour</p>
+    <p>May be fatal if swallowed and enters airways</p>
+    <p>May cause cancer</p>
+    <p>May cause drowsiness or dizziness</p>
+    <p>May cause genetic defects</p>
+    <p>Toxic to aquatic life with long lasting effects</p>
+
+    <h2>Precautions</h2>
+    <p class="bold">Obtain special instructions before use</p>
+    <p class="bold">Do not handle until all safety precautions have been read and understood</p>
+    <p>Keep away from heat, hot surfaces, sparks, open flames and other ignition sources. No smoking.</p>
+    <p>Ground and bond container and receiving equipment</p>
+    <p>Use explosion-proof electrical/ventilating/lighting/.../equipment</p>
+    <p>Use only non-sparking tools</p>
+    <p>Take action to prevent static discharges</p>
+    <p>Avoid breathing dust/fume/gas/mist/vapours/spray</p>
+    <p>Use only outdoors or with adequate ventilation.</p>
+    <p>Avoid release to the environment</p>
+    <p>Wear protective gloves/protective clothing/eye protection/face protection</p>
+    <p class="bold">IF SWALLOWED: Immediately call a POISON CENTER/doctor/...</p>
+    <p class="bold">IF ON SKIN (or hair): Take off immediately all contaminated clothing. Rinse skin with water/shower</p>
+    <p class="bold">IF INHALED: Remove victim to fresh air and keep at rest in a position comfortable for breathing</p>
+    <p class="bold">IF exposed or concerned: Get medical advice/attention</p>
+    <p class="bold">Call a POISON CENTER or doctor/physician if you feel unwell</p>
+    <p class="bold">DO NOT induce vomiting</p>
+    <p class="italic">If skin irritation occurs: Get medical advice/attention</p>
+    <p>Take off contaminated clothing. And wash it before reuse</p>
+    <p>In case of fire: Use ... for extinction</p>
+    <p>Collect spillage</p>
+    <p>Store in a well-ventilated place., Keep cool</p>
+    <p>Store locked up</p>
+    <p>Dispose of contents/container to ...</p>
+
+    <h2>Hazard category</h2>
+    <p>Aspiration hazard (3.10), Carcinogenicity (3.6), Flammable liquids (2.6), Germ cell mutagenicity (3.5), Hazardous to the aquatic environment, long-term (Chronic) (4.1), Skin corrosion/irritation (3.2), Specific target organ toxicity - single exposure (3.8)</p>
+
+    <div class="symbols">
+        <img src="flammable.png" alt="Flammable Symbol">
+        <img src="exclamation.png" alt="Exclamation Mark Symbol">
+        <img src="health-hazard.png" alt="Health Hazard Symbol">
+        <img src="environment.png" alt="Environmental Hazard Symbol">
+    </div>
+</body>
+</html>
